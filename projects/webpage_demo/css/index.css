@@ -1,0 +1,58 @@
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+/* Header */
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+
+.header .wrapper {
+    padding-top: 29px;
+    display: flex;
+}
+
+/* logo */
+.logo a {
+    display: block;
+    width: 195px;
+    height: 41px;
+    background-image: url(../images/logo.png);
+
+    /* 只想要logo图，不想要h1里面的文字 */
+    font-size: 0;
+}
+
+/* 导航 */
+.nav {
+    margin-left: 102px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    margin-right: 24px;
+}
+
+.nav li a {
+    /* 转块标签改变行内标签属性 */
+    display: block;
+    /* 行内标签垂直方向不能被padding更改 */
+    padding: 6px 8px;
+    line-height: 26px;
+
+    font-size: 19px;
+}
+
+.nav li .active, 
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
