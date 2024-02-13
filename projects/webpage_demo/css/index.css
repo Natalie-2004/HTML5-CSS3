@@ -208,3 +208,42 @@ body {
     font-size: 14px;
     color: #fff;
 }
+
+/* recommend */
+.recommend {
+    display: flex;
+    margin-top: 11px;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(211,211,211, 0.5);
+    line-height: 60px;
+}
+
+.recommend .h3 {
+    font-size: 18px;
+    color: #00a4ff;
+    font-weight: 400;
+}
+
+.recommend ul {
+    /* 除去h3(左)和修改兴趣(右)的尺寸，父级剩余尺寸都给ul */
+    flex: 1;
+    display: flex;
+}
+
+.recommend ul li a{
+    padding: 0 24px;
+    /* 给a标签加上灰色竖线，a是行内标签，a的高和内容的高一样 */
+    border-right: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+
+.recommend ul li:last-child a {
+    border-right: 0;
+}
+
+.recommend .modify {
+    font-size: 16px;
+    color: #00a4ff;
+}
