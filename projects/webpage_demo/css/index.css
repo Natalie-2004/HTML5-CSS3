@@ -91,3 +91,21 @@ body {
     height: 16px;
     background-image: url(../images/search.png);
 }
+
+/* User */
+.user {
+    margin-left: 32px;
+    margin-top: 4px;
+}
+
+.user img {
+     margin-right: 7px;
+    /* 处理行内块和行内垂直方向对齐方式 */
+    vertical-align: middle;
+}
+
+.user span {
+    font-size: 16px;
+    color: #666;
+
+}
